@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(214, 134, 246);
+}
+.card{
+    background-color: rgb(239, 234, 234);
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+.input-container{
+    margin-bottom: 15px;
+}
+#birthday{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #a6a0a0;   
+    /* font-size:medium;   */
+}
+button{
+    padding: 7px;
+    cursor: pointer;
+}
+.result{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.detail {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+}
